@@ -2,74 +2,26 @@
   // Bot configuration
   "bot": {
       "token":"Bot-Token",
-      "prefix": "!",
+      "prefix": "$",
       "debug": true
   },
-  "rvn": {
-    "paytxfee": .01,
-    "config": {
-      "port": 3335,
-      "user": "username",
-      "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
-    }
-  },
-  "doge": {
-    "paytxfee": 1,
+    "airin": {
+    "paytxfee": 0.01,
     "config": {
       "port": 3336,
-      "user": "username",
-      "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
-}
-  },
-  "lbc": {
-    "paytxfee": .01,
-    "config": {
-      "port": 3337,
-      "user": "username",
-      "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
-    }
-  },
-  "proton" {
-    "paytxfee": .01,
-    "config": {
-      "port": 3338,
-      "user": "username",
-      "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
-    }
-  },
-  "ufo" {
-    "paytxfee": .01,
-    "config": {
-      "port": 3338,
-      "user": "username",
-      "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
-    }
-  },
-  "pxc": {
-    "paytxfee": .01,
-    "config": {
-      "port": 3339,
-      "user": "username",
-      "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
-    }
-  },
-  "ftc": {
-    "paytxfee": .01,
-    "config": {
-      "port": 3340,
-      "user": "username",
-      "pass": "Do-Not-Use-This-Password-Youll-Be-Hacked-For-all-Teh-Moneys!"
+      "user": "user",
+      "pass": "pass"
     }
   },
   "moderation":{
   "pm2Name": "TipBot",
    // Roles that have access to all commands.
-  "perms": ["Admin","Moderator","Community Leader","Bots"],
+  "perms": ["Airin","Advisor"],
   // Bot Devs!
-  "botDev": "Bot Developer",
+  "botDev": "Airin",
   // Channel to log the bots moderation..
-  "logchannel": "429853685179351050",
+  "logchannel": "440474704059432960",
   //channel that the tip message will reply in if Multi or Role tip is used.
-  "botspamchannels": ["429134627823812612", "429852470886268929"]
+  "botspamchannels": ["454087601360732170, 440231346275614738, 440231324918349846, 440231196123856916, 440230798696644608, 441896063452971008, 441895881621504010, 440479029322186772, 447043192345329675, 440230488364548098"]
   }
 }
