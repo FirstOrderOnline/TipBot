@@ -1,3 +1,12 @@
+Airin Tip Bot 
+=================================================
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/airincoin/TipBot/assets/tip-bot-avatar.png" width="200" />
+</p>
+
+
+
 # Bot for Discord communities to facilitate crypto coin tipping!
 (This README will be updated along with bot updates)
 

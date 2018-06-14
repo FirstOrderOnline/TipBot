@@ -22,7 +22,7 @@ exports.tipairin = {
       subcommand = words.length >= 2 ? words[1] : 'help',
       helpmsg =
         '__**Airin Tipper**__\nTransaction Fees: **' + paytxfee + '**\n    **$tiphelp** : Displays This Message\n    **$tip balance** : get your balance\n    **$tip deposit** : get address for your deposits\n    **$tip withdraw <ADDRESS> <AMOUNT>** : withdraw coins to specified address\n    **$tip <@user> <amount>** :mention a user with @ and then the amount to tip them\n    **$tip private <user> <amount>** : put private before Mentioning a user to tip them privately.\n\n    **<> : Replace with appropriate value.**',
-      channelwarning = 'Please use <#bot-spam> or DMs to talk to bots.';
+      channelwarning = 'Please use <#tipping-room> or DMs to talk to bots.';
     switch (subcommand) {
       case 'help':
         privateorSpamChannel(msg, channelwarning, doHelp, [helpmsg]);
